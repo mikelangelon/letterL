@@ -57,7 +57,6 @@ class MenuScreen(app: App) : ScreenAdapter() {
 
         app.batch.enableBlending()
         app.batch.begin()
-        app.batch.setColor(Color.RED);
         font.draw(app.batch, "Start", 320 / 2f, 480 / 2f);
         app.batch.end()
     }
